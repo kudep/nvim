@@ -26,8 +26,8 @@ keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
 -- Navigate buffers
-keymap("n", "<S-l>", "<cmp>bnext<CR>", opts)
-keymap("n", "<S-h>", "<cmp>bprevious<CR>", opts)
+keymap("n", "<S-l>", ":bnext<CR>", opts)
+keymap("n", "<S-h>", ":bprevious<CR>", opts)
 keymap("n", "<leader>b", ":ls<cr>", opts)
 
 -- Insert --
