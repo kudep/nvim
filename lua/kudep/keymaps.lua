@@ -60,4 +60,4 @@ keymap("n", "<leader>th", "<cmd>Telescope help_tags<cr>", opts)
 keymap("n", "<leader>tr", "<cmd>Telescope resume<cr>", opts)
 
 -- Nvim-Tree --
-keymap("n", "<leader>nt", "<cmd>NvimTreeToggle<cr>", opts)
+keymap("n", "<leader>e", "<cmd>NvimTreeToggle<cr>", opts)
