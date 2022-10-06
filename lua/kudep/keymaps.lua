@@ -62,3 +62,5 @@ keymap("n", "<leader>tr", "<cmd>Telescope resume<cr>", opts)
 -- Nvim-Tree --
 keymap("n", "<leader>ew", "<cmd>NvimTreeToggle<cr>", opts)
 keymap("n", "<leader>er", "<cmd>NvimTreeRefresh<cr>", opts)
+
+keymap("x", "<leader>xc", ":'<,'>ToggleTermSendVisualSelection<cr>", opts)
