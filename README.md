@@ -9,7 +9,7 @@ git clone https://github.com/kudep/nvim.git .config/nvim
 ## Requirements
 
 ```
-sudo dnf install gcc-c++
+sudo dnf install gcc-c++ ripgrep fd-find
 ```
 
 ## Clipboard
