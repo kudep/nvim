@@ -15,7 +15,7 @@ sudo dnf install gcc-c++ ripgrep fd-find
 ```
 # ubuntu based linux distribution
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/UbuntuMono.zip
-sudo apt install unzip
+sudo apt install unzip -y
 sudo mkdir -p /usr/local/share/fonts/nerd_ubuntu_mono/
 sudo unzip UbuntuMono.zip -d /usr/local/share/fonts/nerd_ubuntu_mono/
 ```
@@ -23,14 +23,23 @@ sudo unzip UbuntuMono.zip -d /usr/local/share/fonts/nerd_ubuntu_mono/
 ### Requirements for Telescope
 ```
 # ubuntu based linux distribution
-sudo apt install ripgrep fd-find
+sudo apt install ripgrep fd-find -y
 
+```
+
+### Requirements for LSP
+```
+# ubuntu based linux distribution
+sudo apt install build-essential -y
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash - && sudo apt-get install -y nodejs
 ```
 
 ### Requirements for Treesitter 
 ```
 # ubuntu based linux distribution
-sudo apt install build-essential
+sudo apt install build-essential -y
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash - && sudo apt-get install -y nodejs
+sudo npm install -g tree-sitter-cli
 ```
 
 ## Clipboard
