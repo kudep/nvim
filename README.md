@@ -12,6 +12,12 @@ git clone https://github.com/kudep/nvim.git .config/nvim
 sudo dnf install gcc-c++ ripgrep fd-find
 ```
 
+Requirements for treesitter 
+```
+# ubuntu based linux distribution
+sudo apt install build-essential
+``
+
 ## Clipboard
 
   - |g:clipboard|
