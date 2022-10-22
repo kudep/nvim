@@ -12,11 +12,18 @@ git clone https://github.com/kudep/nvim.git .config/nvim
 sudo dnf install gcc-c++ ripgrep fd-find
 ```
 
-Requirements for treesitter 
+### Requirements for tele Telescope
+```
+# ubuntu based linux distribution
+sudo apt install ripgrep fd-find
+
+```
+
+### Requirements for Treesitter 
 ```
 # ubuntu based linux distribution
 sudo apt install build-essential
-``
+```
 
 ## Clipboard
 
