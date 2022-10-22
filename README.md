@@ -3,8 +3,7 @@
 ## Getted starting
 
 ```
-cd
-git clone https://github.com/kudep/nvim.git .config/nvim
+git clone git@github.com:kudep/nvim.git ~/.config/nvim
 ```
 ## Requirements
 
