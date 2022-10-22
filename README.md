@@ -11,7 +11,16 @@ git clone git@github.com:kudep/nvim.git ~/.config/nvim
 sudo dnf install gcc-c++ ripgrep fd-find
 ```
 
-### Requirements for tele Telescope
+### Requirements for nvim-web-devicons
+```
+# ubuntu based linux distribution
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/UbuntuMono.zip
+sudo apt install unzip
+sudo mkdir -p /usr/local/share/fonts/nerd_ubuntu_mono/
+sudo unzip UbuntuMono.zip -d /usr/local/share/fonts/nerd_ubuntu_mono/
+```
+
+### Requirements for Telescope
 ```
 # ubuntu based linux distribution
 sudo apt install ripgrep fd-find
